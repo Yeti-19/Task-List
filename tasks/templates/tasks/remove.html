@@ -1,0 +1,11 @@
+{% extends "tasks/layout.html" %}
+
+{%block body %}
+        <h1> Name of the Task to be removed </h1>
+        <form action = "{% url 'tasks:remove' %}" method = "post">
+            {% csrf_token %}
+            {{ form }}
+            <input type = "submit">
+        </form>
+        <a href = "{% url 'tasks:index' %}"> View Tasks </a>
+{%endblock%}

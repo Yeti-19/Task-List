@@ -1,0 +1,54 @@
+# Python-related files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Virtual environment directories
+venv/
+.env/
+# If using pipenv
+Pipfile.lock
+# If using poetry
+poetry.lock
+
+# Django-related files
+*.log
+*.sqlite3
+
+# Django migrations (exclude migration files in case you're using a local development environment)
+*/migrations/*
+
+# Static files that can be regenerated (optional, if you’re not using them for production)
+staticfiles/
+
+# Media files (optional, if you store user-uploaded files)
+media/
+
+# IDE-specific files (optional, depending on your IDE)
+.vscode/
+.idea/
+
+# Operating system-related files
+.DS_Store
+Thumbs.db
+
+# Coverage and testing tools files
+.coverage
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# User-specific files
+*.swp
+*.swo
+
+# Secret keys and configuration files (optional, depending on your setup)
+*.env
+
+# Ignore hello app directory
+hello/
+
+# Ignore newyear app directory
+newyear/
