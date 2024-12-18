@@ -37,7 +37,7 @@ If you haven't installed Python or Django, follow these steps:
    
 2. Navigate to the project directory:
 ```bash
-   cd your-repo-name
+   cd myproject
 ```
 
 3. To see the app in action, run the following command:
