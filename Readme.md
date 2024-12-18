@@ -31,9 +31,9 @@ If you haven't installed Python or Django, follow these steps:
 ## Setup
 
 1. Clone this repository:
-   ```bash
+```bash
    git clone https://github.com/Yeti-19/Task-List.git
-   ```
+```
    
 2. Navigate to the project directory:
 ```bash
